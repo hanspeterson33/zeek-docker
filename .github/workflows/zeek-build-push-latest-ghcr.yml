@@ -4,7 +4,7 @@ name: zeek-build-push-latest-ghcr
 on:
   push:
     branches:
-      - 'main'
+      - 'gcc-build'
     paths:
       - '**'
       - '!**.md'
